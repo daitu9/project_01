@@ -1,0 +1,58 @@
+/* 页面初始化 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 让所有斜体不斜体 */
+
+em, i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+/* 图片没有边框 去掉图片的空白框 */
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/* 让button按钮变成小手*/
+
+button {
+    cursor: pointer;
+}
+
+/* 取消链接的下划线 */
+
+a:hover {
+    color: #e33333;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.viewport {
+    display: flex;
+    min-width: 1024px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 1.173333rem .266667rem 0;
+    min-height: 780px;
+}
+
+.viewport .column {
+    flex: 3;
+    background-color: pink;
+}
+
+.viewport .column:nth-child(2) {
+    flex: 4;
+}
